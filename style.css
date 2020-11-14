@@ -35,7 +35,7 @@ html, body {
 
   a {
     text-decoration: underline;
-    color: forestgreen;
+    color: #193855;
   }
 
   /* Nav bar */
@@ -61,7 +61,7 @@ html, body {
 
   #top-nav {
     margin-top: 0px;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     margin-right: 1rem; 
   }
@@ -91,7 +91,7 @@ html, body {
   /* Hero section layout */
 
   #hero-image-container { 
-    position
+    /* position */
     display: flex;
     width: 100%;
     margin-top: 0%;
@@ -101,7 +101,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(//www.dev.languages.nz/wp-content/uploads/hero-dog.jpg);
+    background-image: url(images/hero-dog.jpg);
     background-color: #193855;
     /* background-position: center; */
     background-size: 100%;
@@ -159,6 +159,8 @@ html, body {
     background-color: #E9DAC4;
     border-color: #193855;
     border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.4);
     flex-basis: 30%;
     padding: .5em;
     padding-right: 1em;
@@ -184,7 +186,7 @@ html, body {
   #email {
     font-size: 1.1rem;
     padding: .9rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #193855;
     width: 25%;
     margin-right: 1rem;
@@ -195,7 +197,7 @@ html, body {
     color: #FFFFFF;
     font-size: 1.1rem;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #193855;
     width: 15%;
   }
@@ -250,7 +252,7 @@ html, body {
   #bottom-nav {
     margin-top: 0px;
     margin-bottom: 0px;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     margin-right: 1rem; 
   }

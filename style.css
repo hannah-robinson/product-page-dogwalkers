@@ -53,7 +53,7 @@ html, body {
   }
 
   #header-img {
-    width: 50;  
+    width: 50px;  
     float: left;
     margin-top: 5px;  
     margin-left: 5px;
@@ -157,13 +157,20 @@ html, body {
 
   /* Pricing cards */
 
+  #price-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
   #price-box1, #price-box2, #price-box3 {
     background-color: #f0e8d7;
     border-color: #193855;
     border-style: solid;
     border-radius: 10px;
     box-shadow: 0 3px 5px 3px rgba(0,0,0,0.4);
-    flex-basis: 30%;
+    flex: 30%;
+    max-width: 30%;
     padding: .5em;
     padding-right: 1em;
     box-sizing: border-box;
@@ -291,13 +298,12 @@ html, body {
     margin: 0;
   }
 
-  @media (min-width: 750px) {
-    #price-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
+  @media (max-width: 750px) {
+    #price-box1, #price-box2, #price-box3 {
+      flex: 100%;
+      max-width: 100%;
   }
+}
 
   @media (max-width: 400px) {
 

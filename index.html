@@ -10,27 +10,24 @@
     <title>Dog walking</title>
   </head>
   <body>
-    <section id="home">
-      <div id="hero-image-container">
-        <div id="title-wrapper">
-          <h1 id="title">H & H Fictional <br>Dog Walkers</h1>
-        </div>
-        <div id="cta">Sign up for our newsletter</div>
+  <!-- Hero -->
+    <div id="hero-container">
+      <div id="hero-banner">
+        <h1 id="title">H & H Fictional <br>Dog Walkers</h1>
+        <h2 id="cta">Sign up for our newsletter</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit" target="_self">
           <input id="email" type="email" name="email" placeholder="Enter your email address here...">
-          <input id="submit" type="submit">
+          <input id="submit" type="submit" value="Sign me up!">
         </form>
       </div>
-      <!-- <div id="hero-image">
-          <div id="hero-image">
-        <img id="hero-img" src="./images/hero-dog.jpg" alt="Small white dog running and smiling"> 
-      </div>  -->
-    </section>
+    </div>
+    
+  <!-- Nav -->
     <header id="header">
-        <a href="#home" title="Back to top"><img id="header-img" src="images/dog-logo.png" title="logo" alt="logo"></a>
+        <a href="#hero-container" title="Back to top"><img id="header-img" src="images/dog-logo.png" title="logo" alt="logo"></a>
         <nav id="nav-bar">
           <ul id="top-nav">
-            <li><a class="nav-link" href="#home" title="Home">Home</a></li>
+            <li><a class="nav-link" href="#hero-container" title="Home">Home</a></li>
             <li><a class="nav-link" href="#services" title="Our services">Our services</a></li>
             <li><a class="nav-link" href="#about" title="About us">About us</a></li>
             <li><a class="nav-link" href="#price" title="Pricing">Pricing</a></li>
@@ -38,26 +35,27 @@
           </ul>
         </nav>
       </header>
+
     <main class="container">
       <section id="services">
         <h2>Our Services</h2>
         <p>
           You love your dog, but life is busy, so sometimes you need a little help. H & H Fictional Dog Walkers can walk your dog for or take him or her to the park to play fetch. Make sure your dog gets all the exercise, fresh air, sunshine and attention he or she needs.
         </p>
-        <p class="gold">Your dog can join us for:</p>
+        <p class="list-heading">Your dog can join us for:</p>
         <ul>
           <li>Walks</li>
           <li>Games of fetch in the park</li>
           <li>Carefully-supervised runs at the beach</li>
           <li>A trip to the vet with us, paw-holding included</li>
         </ul>
-        <p class="gold">With regular exercise your dog will be:</p>
+        <p class="list-heading">With regular exercise your dog will be:</p>
         <ul>
           <li>Healthier</li>
           <li>Happier</li>
           <li>Less noisy and destructive around the house</li>
         </ul>
-        <p class="gold">Our services are ideal for:</p>
+        <p class="list-heading">Our services are ideal for:</p>
         <ul>
           <li>People who don't like going outside on cold rainy days</li>
           <li>Busy professionals</li>
@@ -118,12 +116,6 @@
       </section>
       <section id="contact">
         <h2>Contact us</h2>
-        <!--  
-        <form id="form" action="https://www.freecodecamp.com/email-submit" target="_self">
-          <input id="email" type="email" name="email" placeholder="Enter your email address here...">
-          <input id="submit" type="submit">
-        </form>
-        -->
         <p>Phone: 123456789</p>
         <p><a href="mailto:fictional@email.com" target="_top">fictional@email.com</a></p>
         <p>H & H Fictional Dog Walkers<br>

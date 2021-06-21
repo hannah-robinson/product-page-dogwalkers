@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html {
   box-sizing: border-box;
 }
@@ -47,6 +48,12 @@ a:hover {
 
 /* Nav bar */
 
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 #header {
   position: fixed; 
   top: 0;
@@ -56,13 +63,13 @@ a:hover {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 #header-img {
   width: 50px;  
   float: left;
-  margin-top: 5px;  
+  /* margin-top: 5px;   */
   margin-left: 5px;
 }
 
@@ -88,6 +95,7 @@ a:hover {
 .nav-link:hover {
   text-decoration: none;
   color: #193855;
+  filter: none;
   font-size: 1.2rem;
   background-color: #D5B794;
   padding: 1rem .5rem 1.3rem .5rem;
@@ -110,7 +118,7 @@ a:hover {
   text-align: center;
   width: 90%;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 16rem;
 } 
 
 #title {  
@@ -169,7 +177,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: bottom;
     align-items: flex-start;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
 
   #hero-banner {
@@ -211,7 +219,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: bottom;
     align-items: flex-start;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
 
   #hero-banner {
